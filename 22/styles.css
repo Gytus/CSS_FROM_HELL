@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+}
+body{
+    
+}
+
+h2{
+    color: aliceblue;
+    text-align: center;
+}
+
+header{
+    background-color: rgb(70, 70, 219);
+}
+nav{
+    background-color: rgb(61, 61, 244);
+}
+main{
+    background-color: rgb(10, 10, 142);
+}
+aside{
+    background-color: rgb(8, 8, 104);
+}
+footer{
+    background-color: rgb(8, 8, 191);
+}
+
+@media (max-width: 568px) {
+    header{
+        height: 15vh;
+    }
+
+    main{
+        height: 40vh;
+    }
+    nav{
+        height: 10vh;
+    }
+
+    aside{
+        height: 10vh; 
+    }
+
+    footer{
+        height: 20vh;
+    }
+    .revers{
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+
+
+
+
+}
+
+@media (min-width: 568px) {
+    header{
+        height: 15vh;
+    }
+
+    main{
+        height: 40vh;
+        width: 80%;
+        float: inline-start;
+    }
+    nav{
+        height: 10vh;
+    }
+
+    aside{
+        height: 40vh; 
+    }
+
+    footer{
+        height: 20vh;
+    }
+   
+
+}

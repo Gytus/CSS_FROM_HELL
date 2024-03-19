@@ -1,0 +1,104 @@
+*{
+    /* margin: 0px; */
+    box-sizing: border-box;
+
+
+}
+body{
+    overflow: hidden;
+}
+h1{
+    text-align: center;
+    
+}
+p{
+    padding-top: 30px;
+    word-wrap:break-word;
+
+    
+}
+
+#wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.title1, .title2, .title3{
+    float: right;
+    color: aliceblue;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid 5px black;
+    font-size: 1vw;
+    background-color: hwb(0 0% 0%);
+}
+
+.box1{
+    overflow: hidden;
+    background-color: rgb(99, 99, 99);
+}
+
+.box2{
+    overflow: hidden;
+    background-color: rgb(99, 99, 99);
+}
+
+.box3{
+    overflow: hidden;
+    background-color: rgb(99, 99, 99);
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 420px) {
+    body {
+      background-color: #F09A9D; /* Red */
+    }
+    .box1, .box2, .box3 {
+        margin-bottom: 3px;
+        width: 30vw;
+        height: 80vw;
+        margin-right: 9px;
+        margin-bottom: 25px;
+    }
+    
+  }
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 420px) and (max-width: 960px) {
+    body {
+      background-color: #F5CF8E; /* Yellow */
+    }
+    .box1, .box2 {
+        display:inline-block;
+        
+        width: 47vw;
+        height: 200px;
+        margin-bottom: 3px;
+    }
+    .box1{
+        margin-right: 5px;
+    }
+    .box3{
+        width: 95vw;
+        height: 200px;
+    }
+    
+  }
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 960px) {
+    body {
+      background-color: #B2D6FF; /* Blue */
+    }
+    .box1, .box2, .box3 {
+        margin-bottom: 3px;
+        display: inline-block;
+        width: 25vw;
+        height: 200px;
+        margin-right: 9px;
+    }
+    
+
+  }

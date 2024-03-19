@@ -1,0 +1,146 @@
+
+body{
+    overflow: hidden;
+}
+
+
+
+.orange{
+    background-color: orange;
+}
+
+.green{
+    background-color: greenyellow;
+   
+}
+
+.blue{
+    background-color: lightskyblue;
+    
+}
+
+.grey{   
+    background-color: lightslategray;
+    
+}
+
+@media only screen and (max-width: 420px)
+{
+    .orange{
+        
+        width: 100%;   
+        height:8vh;
+        margin-left: 1%;
+        margin-bottom: 1vh;
+    }
+
+    .green{
+        width: 100%;
+        height: 11vh;
+        margin-left: 1%;
+        margin-bottom: 1vh;
+     
+    }
+
+    .blue{
+        width: 100%;   
+        height: 15vh;
+        margin-left: 1%;
+        margin-bottom: 1vh;
+    }
+
+    .grey{
+        width: 100%;   
+        height: 5vh;
+        margin-left: 1%;
+        margin-bottom: 1vh;
+    }
+
+}
+
+@media only screen and (min-width: 420px) and (max-width: 960px)
+{
+    .orange{
+        display: inline-block;
+        width: 48%;   
+        height: 8vh;
+        margin-left: 1%;
+        margin-bottom: 1vh;
+    }
+
+    .green{
+        width: 97%;
+        height: 25vh;
+        padding-left: 4px;
+        margin-left: 1%;
+        margin-bottom: 1vh;
+        
+        
+    }
+
+    .blue{
+        
+        width: 97%;   
+        height: 10vh;
+        padding-left: 5px;
+        margin-left: 1%;
+        margin-bottom: 1vh;
+    }
+
+    .main {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 10px;
+      }
+      
+      .grey {
+        
+        width: 96%;   
+        height: 8vh;
+        margin-left: 1%;
+        margin-bottom: 1vh;
+        
+      }
+
+} 
+
+
+
+@media only screen and (min-width: 960px) 
+{
+    .orange{
+        display: inline-block;
+        width: 48%;   
+        height: 8vh;
+        margin-left: 1%;
+        margin-bottom: 1vh;
+    }
+
+    .green{
+        width: 97%;
+        height: 35vh;
+        padding-left: 4px;
+        margin-left: 1%;
+        margin-bottom: 1vh;
+        
+        
+    }
+
+    .blue{
+        display: inline-block;
+        width: 31%;   
+        height: 15vh;
+        padding-left: 6px;
+        margin-left: 1%;
+        margin-bottom: 1vh;
+    }
+
+    .grey{
+        display: inline-block;
+        width: 23%;   
+        height: 12vh;
+        padding-left: 3px;
+        margin-left: 1%;
+        margin-bottom: 1vh;
+    }
+}

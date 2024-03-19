@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body{
+    text-align: center;
+}
+
+header{
+    background-color: teal;
+}
+
+.spacer{
+    height: 5vh;
+    background-color: #B2D6FF;
+}
+
+.content{
+    background-color: aliceblue;
+}
+.feature1{
+    background-color: orange;
+    
+    
+}
+.feature2{
+    background-color: green;
+  
+    
+}
+.feature3{
+    background-color: firebrick;
+
+}
+.sign{
+    background-color: blueviolet;
+} 
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    body {
+        background-color: #F09A9D; /* Red */
+    }
+
+    header{
+        background-color: teal;
+        height: 10vh;
+    }
+
+    .content{
+        height: 20vh;
+        
+    }
+
+    .feature1{
+        width: 100%;
+        height: 10vh;
+    }
+
+    .feature2{
+        width: 100%;
+        height: 10vh;
+    }
+
+    .feature3{
+        width: 100%;
+        height: 10vh;
+    }
+
+    .sign{
+        height: 10vh;   
+    } 
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    body {
+        background-color: #F5CF8E; /* Yellow */
+    }
+
+    header{
+        height: 15vh;
+        width: 100%;
+    }
+
+    .content{
+        height: 50vh;
+        width: 100%;
+    }
+
+    .feature1{
+        float: right;
+        width: 50%;
+        height: 25vh;
+    }
+
+    .feature2{
+        width: 50%;
+        float: right;
+        height: 25vh;
+    }
+
+    .feature3{
+        float: right;
+        width: 50%;
+        height: 25vh;
+    }
+
+    .sign{
+        height: 25vh;
+        width: 50%;
+        float: left;
+    }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    body {
+        background-color: #B2D6FF; /* Blue */
+    }
+    header{
+        background-color: teal;
+        width: 100%;
+        height: 20vh;
+    }
+    
+    .content{
+        background-color: aliceblue;
+        width: 100%;
+        height: 30vh;
+        margin-top: 62vh;
+        position: absolute;
+    }
+
+    .feature1 {
+        float: left;
+        background: Red;
+        width: 33%;
+        height: 53vh;
+    }
+
+    .feature2 {
+        float: left;
+        background: Green;
+        width: 34%;
+        height: 53vh;
+    }
+
+    .feature3 {
+        float: right;
+        background: blue;
+        width: 33%;
+        height: 53vh;
+    }
+    .sign{
+        text-align: center;
+        height: 9vh;
+        width: 100%;
+        margin-top: 53vh;
+        position: absolute;
+    }
+
+
+}

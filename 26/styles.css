@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+}
+img {
+    
+    object-fit: fill;
+    }
+
+@media only screen and (max-width: 375px){
+    body{
+        background-color: blue;
+    }
+    img{
+        display: flex;
+        flex-direction: column;
+        object-fit: cover;
+        max-width: 100%;
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 640px){
+    body{
+        background-color: green;
+    }
+      
+    .cont{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 4 images in the first row */
+        gap: 10px; /* Adjust the gap as per your requirement */
+      }
+      
+      img {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+        width: 200px;
+        height: 200px;
+      }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 768px){
+    body{
+        background-color: yellow;
+    }
+    .cont{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 4 images in the first row */
+        gap: 10px; /* Adjust the gap as per your requirement */
+      }
+      
+      img {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+        width: 200px;
+        height: 200px;
+      }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1267px) {
+    body{
+        background-color: orange;
+    }
+
+    .cont{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* 4 images in the first row */
+        gap: 10px; /* Adjust the gap as per your requirement */
+      }
+      
+      img {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+        width: 200px;
+        height: 200px;
+      }
+}
